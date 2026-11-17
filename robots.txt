@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin-login
+Disallow: /my-account
+Disallow: /user-dashboard.html
+Disallow: /login.html
+Disallow: /register.html
+Disallow: /post-ad.html
+Disallow: /post-job.html
+Disallow: /add-business.html
+Disallow: /ask-question.html
+Disallow: /submit-blog.html
+Sitemap: https://digitalduniya360.com/sitemap.xml

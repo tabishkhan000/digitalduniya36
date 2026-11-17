@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.digitalduniya360\.com$ [NC]
+RewriteRule ^ https://digitalduniya360.com%{REQUEST_URI} [R=301,L,NE]
+
+RewriteRule ^pricing/?$ pricing.html [L]
+RewriteRule ^my-account/?$ my-account.html [L]
+RewriteRule ^admin-login/?$ admin-login.html [L]
+
+ErrorDocument 404 /404.html
